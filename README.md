@@ -22,11 +22,6 @@ require.config({paths:{
 见dist文件夹
 
 2.改
-
-// 本地解析替换路径
-// npm install [-g] fis3-hook-amd
-
-
 fis.hook('module', {
 
   paths: {
@@ -37,12 +32,7 @@ fis.hook('module', {
 
 成：
 
-// 本地解析替换路径
-// npm install [-g] fis3-hook-amd
-
 fis.hook('module', {
-  // 加载模块时间 超时会报错
-  //waitSeconds: 0,
   paths: {
     'ui':'/js/ui',
     'test':'/js/test'
