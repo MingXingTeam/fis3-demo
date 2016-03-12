@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    
+</head>
+<body>
+	test page	
+
+<script src="/require.js"></script>
+<script>/*resourcemap*/
+require.config({paths:{
+  "js/ui": "/js/ui",
+  "js/test": "/js/test"
+}});
+
+		require(['js/test'],function(Test) {
+					
+		});	
+	</script>
+</body>
+</html>
