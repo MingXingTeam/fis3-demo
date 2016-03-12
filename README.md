@@ -25,6 +25,8 @@ require.config({paths:{
 
 // 本地解析替换路径
 // npm install [-g] fis3-hook-amd
+
+
 fis.hook('module', {
 
   paths: {
@@ -37,6 +39,7 @@ fis.hook('module', {
 
 // 本地解析替换路径
 // npm install [-g] fis3-hook-amd
+
 fis.hook('module', {
   // 加载模块时间 超时会报错
   //waitSeconds: 0,
@@ -53,6 +56,7 @@ fis3 release -d ../dist
 ```
 
 test.html内嵌的resourcemap是这样的：
+
 require.config({paths:{
   "js/test": "/js/test"
 }});
